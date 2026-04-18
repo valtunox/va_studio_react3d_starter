@@ -265,3 +265,4 @@ This project is open source and available under the [MIT License](LICENSE).
 <p align="center">
   Built with 💜 by the <a href="https://github.com/valtunox">VA Studio</a> team and contributors.
 </p>
+# va_studio_react3d_starter_map
