@@ -12,6 +12,12 @@ import { useState } from 'react';
 
 const USECASE_GROUPS = [
   {
+    label: 'Featured',
+    items: [
+      { id: 'geo-map',    label: 'Geo Map',          icon: '🗺️', desc: 'Geolocation, cities, roads' },
+    ],
+  },
+  {
     label: 'Globe',
     items: [
       { id: 'earth',      label: 'Earth Explorer',   icon: '🌍', desc: 'Countries, cities, heatmap' },

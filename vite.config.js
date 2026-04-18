@@ -13,7 +13,7 @@ export default defineConfig({
     outDir: 'build',
   },
   server: {
-    port: 3011,
+    port: 3041,
     strictPort: true,
     watch: {
       usePolling: true,
@@ -28,6 +28,6 @@ export default defineConfig({
     },
   },
   preview: {
-    port: 3011,
+    port: 3041,
   },
 })

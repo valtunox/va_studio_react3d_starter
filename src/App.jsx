@@ -37,6 +37,8 @@ import { UsecaseSwitcher } from './components/UsecaseSwitcher';
 /* ------------------------------------------------------------------ */
 
 const usecases = {
+  // Advanced Geo Map (default entry for this build)
+  'geo-map': lazy(() => import('./usecases/geo-map/App.jsx')),
   // Globe-based
   earth: lazy(() => import('./usecases/earth/App.jsx')),
   health: lazy(() => import('./usecases/health/App.jsx')),
@@ -80,7 +82,7 @@ function UsecaseLoader() {
 /* ------------------------------------------------------------------ */
 
 export default function App() {
-  const [activeUsecase, setActiveUsecase] = useState('earth');
+  const [activeUsecase, setActiveUsecase] = useState('geo-map');
   const ActiveComponent = usecases[activeUsecase];
 
   return (
